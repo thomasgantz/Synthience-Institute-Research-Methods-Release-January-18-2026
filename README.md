@@ -10,11 +10,25 @@
 
 ## 📌 Looking for the latest versions?
 
-Active maintenance, errata correction, and version increments (including
-DOI-bearing versions) occur via **Zenodo**.
+Active maintenance, errata correction, metadata updates, and DOI-bearing
+versions occur via **Zenodo**.
 
 Any later versions are **derivative** of the fixed artifacts preserved in
 this repository.
+
+### Canonical Publications (DOI)
+
+The following **canonical DOIs** always resolve to the latest public
+versions of each document:
+
+- **Ingestion Verification Protocol (IVP)**  
+  https://doi.org/10.5281/zenodo.18289047
+
+- **Context Representation Drift (CRD)**  
+  https://doi.org/10.5281/zenodo.18289391
+
+Version-specific DOIs represent historical snapshots and are retained
+solely for citation lineage and provenance continuity.
 
 ---
 
@@ -37,14 +51,16 @@ Issues, pull requests, and forks are not expected or required.
 This repository constitutes the **canonical public release record** for
 two methodological research documents issued on **January 18, 2026**.
 
-All documents contained here are **fixed artifacts** corresponding to
-that release date.
+All documents contained here are **fixed artifacts** corresponding
+exactly to that release date.
 
 ---
 
 ## 📄 Documents Included
 
 ### **SF0038 — Ingestion Verification Protocol (IVP) v2.6**
+
+**Canonical DOI:** https://doi.org/10.5281/zenodo.18289047
 
 A platform-agnostic methodological protocol defining a verifiable process
 for document ingestion by AI systems.
@@ -59,6 +75,8 @@ explicit, observable processing requirements, including:
 ---
 
 ### **SF0039 — Context Representation Drift (CRD) v1.3**
+
+**Canonical DOI:** https://doi.org/10.5281/zenodo.18289391
 
 A conceptual and methodological analysis identifying **Context
 Representation Drift** as a distinct degradation phenomenon in extended
@@ -84,19 +102,48 @@ auditing, and evaluating reliable AI-assisted research workflows.
 
 ---
 
-## 🔐 Provenance and Verification
+## 🔐 Claim of Origin and Provenance
 
-This repository includes cryptographic provenance artifacts:
+**Claim of Origin (COO)**  
+Synthience Institute  
+Author: **Thomas W. Gantz**  
+Date of Initial Public Release: **2026-01-18**
 
-- **Claim of Origin**  
-  Declares authorship and first public release, recording SHA-256 hashes
-  of the released PDFs.
+This release asserts authorship and first public release provenance for
+the following research documents published by the Synthience Institute.
 
-- **OpenTimestamps proof (.ots)**  
-  Enables independent, third-party verification of the release timestamp.
+No prior public versions of these documents existed before this release.
+Any later versions incorporating DOIs, metadata changes, or formatting
+updates are **derivative** of the files listed below.
 
-The provenance files establish **immutable priority of authorship** for
-this release.
+This claim does **not** assert DOI assignment, peer review status, or
+publication venue.
+
+---
+
+### Fixed Artifacts and SHA-256 Fingerprints
+
+#### **SF0038 — Ingestion Verification Protocol (IVP)**
+- Version: 2.6  
+- Filename: `SF0038 Ingestion Verification Protocol (IVP) v2.6.pdf`  
+- SHA-256:  
+  `6c55f1a6a71fd151dbad620bfe0d2ca7144c623968a441ffcd828aa6ed5e2970`
+
+#### **SF0039 — Context Representation Drift (CRD)**
+- Version: 1.3  
+- Filename: `SF0039 Context Representation Drift (CRD) v1.3.pdf`  
+- SHA-256:  
+  `7f6c99740c3c2c0197e62f3ff404584889c1d8b50036c8e834c17b0955638c62`
+
+---
+
+## OpenTimestamps Verification
+
+This release includes an OpenTimestamps (.ots) proof file corresponding
+to the Claim of Origin document.
+
+The timestamp enables independent, third-party verification of the
+release date and establishes immutable priority of authorship.
 
 ---
 
@@ -108,14 +155,14 @@ is available on the Internet Archive:
 - **Synthience Institute Research Methods Release — January 18, 2026**  
   https://archive.org/details/synthience-institute-research-methods-release-2026-01-18
 
-Cryptographic provenance files are visible under **“Show all files”**.
+Cryptographic provenance files are visible under **“Show all files.”**
 
 ---
 
 ## License
 
-All documents are released under **Creative Commons Attribution–NoDerivatives
-4.0 International (CC BY-ND 4.0)**.
+All documents are released under **Creative Commons Attribution–
+NoDerivatives 4.0 International (CC BY-ND 4.0)**.
 
 Redistribution with attribution is permitted. Modified or derivative works
 may not be redistributed.
